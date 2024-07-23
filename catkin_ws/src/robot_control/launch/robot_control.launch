@@ -1,0 +1,4 @@
+<launch>
+    <node name="receiver_node" pkg="robot_control" type="receiver.py" output="screen" />
+    <node name="controller_node" pkg="robot_control" type="controller.py" output="screen" />
+</launch>
